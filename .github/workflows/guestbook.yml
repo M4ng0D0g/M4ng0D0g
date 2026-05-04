@@ -1,0 +1,58 @@
+name: 系統日誌注入器 (Guestbook Injector)
+
+# 監聽器模組：當有新的 Issue 被開啟時觸發
+on:
+  issues:
+    types: [opened]
+
+# 權限宣告：允許 Action 修改程式碼與管理 Issues
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  inject_guestbook:
+    # 條件過濾：只有標籤包含 'guestbook' 的 Issue 才會執行此 Job
+    if: contains(github.event.issue.labels.*.name, 'guestbook')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Process & Inject Data (AWK Engine)
+        env:
+          AUTHOR: ${{ github.event.issue.user.login }}
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          # 1. 資料清洗：移除換行符號、限制長度為 80 字元，避免版面破壞
+          CLEAN_BODY=$(echo "$BODY" | tr '\n' ' ' | sed 's/\r//g' | cut -c 1-80)
+          
+          # 2. 格式化輸出：組合成駭客終端機風格字串
+          NEW_ENTRY="> [$AUTHOR] injected: $CLEAN_BODY"
+          
+          # 3. 檔案操作：使用 AWK 掃描 START/END 標籤，插入新留言，並嚴格維持最多 5 筆紀錄 (模擬 tail -n 5)
+          awk -v new_entry="$NEW_ENTRY" '
+            /<!-- START_GUESTBOOK -->/ { print; print new_entry; inside=1; count=0; next }
+            /<!-- END_GUESTBOOK -->/ { print; inside=0; next }
+            inside {
+              if (count < 4) { print; count++ }
+              next
+            }
+            { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # 避免沒有變更時報錯
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs(guestbook): log entry from $AUTHOR" && git push)
+
+      - name: Terminate Connection (Close Issue)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 使用 GitHub CLI 自動關閉 Issue 並留下系統回覆
+          gh issue close ${{ github.event.issue.number }} -c "🟢 System received your injection. Log updated. Connection terminated."
