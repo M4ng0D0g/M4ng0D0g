@@ -1,4 +1,8 @@
-# <h1><p align="center"> M4ng0D0g@dev:~ </p></h1>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=M4ng0D0g@dev:~$+init+system;Loading+C%2B%2B+Core...;Training+AI+Models...;Optimizing+Minecraft+Mods...;System+Ready." alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <!-- C++ -->
@@ -10,40 +14,6 @@
   <!-- AI Learning -->
   <img src="https://img.shields.io/badge/Field-AI_Learning-412991?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
----
-
-### 📟 System Boot Sequence
-```bash
-> Initializing chiayu.sys...
-> Loading C++ Standard Libraries... [OK]
-> Mounting AI Training Datasets... [OK]
-> Starting Minecraft Fabric Environment... [OK]
-> Synchronizing Japanese N5 Grammar... [IN PROGRESS]
-```
-
-## 🏗️ Project Ecosystem
-```mermaid
-classDiagram
-    class MyuDoglibs_Cpp {
-        <<Utility Library>>
-        +MemoryManagement
-        +ML_Base
-    }
-    class MyuAgent {
-        <<AI Framework>>
-        +TrainingCore
-        +GPU_Optimizer
-    }
-    class TuoZhuRPG {
-        <<Minecraft Fabric Mod>>
-        +ECS_System
-        +AI_NPC_Bridge
-    }
-
-    MyuDoglibs_Cpp <|-- MyuAgent : Provides ML Primitives
-    MyuDoglibs_Cpp <|-- TuoZhuRPG : Provides Base Utilities
-    MyuAgent ..> TuoZhuRPG : Drives NPC Intelligence
-```
 
 ## 📊 Analytics & Status
 <p align="center">
@@ -61,8 +31,14 @@ classDiagram
   </a>
 </p>
 
-## 🎼 /dev/lifestyle
-<!-- 這裡之後會放音樂與語言學習內容 -->
+### 🐍 Contribution Snake
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake.svg">
+</picture>
+
+![](https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/main/profile-3d-contrib/profile-night-rainbow.svg)
 
 ---
 
