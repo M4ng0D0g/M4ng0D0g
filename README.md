@@ -17,7 +17,6 @@
       <img src="https://img.shields.io/badge/--F8F8F8?style=for-the-badge&logo=fabricmc&logoColor=black" width="40px" title="Minecraft Modding" /> <br />
       <img src="https://img.shields.io/badge/--412991?style=for-the-badge&logo=openai&logoColor=white" width="40px" title="AI Research" /> <br />
     </td>
-    
     <!-- 右側主視窗區 (Main Console) -->
     <td valign="top">
       <h2> 🖥️ Main Console </h2>
@@ -25,14 +24,12 @@
         <strong>Current Task:</strong> Optimizing MyuAgent training loops <br />
         <strong>Status:</strong> <img src="https://img.shields.io/badge/System-Stable-green?style=flat-square" />
       </blockquote>
-
       <h3>🐍 Contribution Snake</h3>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake.svg">
         <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake.svg">
       </picture>
-
       <p align="center">
         <img src="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
       </p>
@@ -60,25 +57,3 @@
     </a>
   </p>
 </details>
-
-### 🏗️ /usr/local/bin/architecture
-<details>
-  <summary><b>Expand Project ClassDiagram...</b></summary>
-```mermaid
-classDiagram
-    class MyuDoglibs_Cpp {
-        <<Utility Library>>
-        +MemoryManagement
-        +ML_Base
-    }
-    class MyuAgent {
-        <<AI Framework>>
-        +TrainingCore
-    }
-    class TuoZhuRPG {
-        <<Minecraft Fabric Mod>>
-        +ECS_System
-    }
-    MyuDoglibs_Cpp <|-- MyuAgent
-    MyuDoglibs_Cpp <|-- TuoZhuRPG
-    MyuAgent ..> TuoZhuRPG
