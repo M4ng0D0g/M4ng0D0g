@@ -10,8 +10,6 @@
 <table border="0">
   <tr>
     <td valign="top">
-      <td valign="top">
-      <h2> 🖥️ Main Console </h2>
       <div style="background-color: #0d1117; padding: 10px; border-radius: 5px;">
         <img src="https://readme-typing-svg.demolab.com?font=VT323&size=22&pause=1000&color=FFFFFF&width=435&lines=%3E+Current+Task%3A+Optimizing+MyuAgent+training+loops...;%3E+Status%3A+System+Stable+_;%3E+Memory+Usage%3A+Optimized;%3E+Waiting+for+next+command...+" alt="Terminal Output" />
       </div>
@@ -24,7 +22,10 @@
   </tr>
 </table>
 
----
+<!-- 彩虹分隔線區塊 -->
+<p align="center">
+  <img src="/assets/rainbow-line.png" width="100%" height="3px" />
+</p>
 
 ### 📂 /var/log/activity
 <details open>
