@@ -1,0 +1,38 @@
+name: 系統排程 (AI Metrics Sync)
+
+# 觸發條件
+on:
+  schedule:
+    # 每天 UTC 時間 00:00 (台灣時間早上 08:00) 自動執行一次
+    - cron: '0 0 * * *'
+  # 允許你隨時在 Actions 頁面手動點擊 "Run workflow" 來測試
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync_huggingface_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 系統連線 (Checkout Repository)
+        uses: actions/checkout@v4
+
+      - name: 初始化 Python 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 啟動核心引擎 (Run Fetcher Script)
+        run: |
+          python .github/scripts/fetch_hf_stats.py
+
+      - name: 寫入系統日誌 (Commit and Push)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          
+          # 檢查是否有資料變動，如果有才執行 commit，避免噴錯
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(ai-metrics): sync hugging face training stats" && git push)
