@@ -36,6 +36,9 @@
           </div>
           <!-- 內容區 -->
           <div style="padding: 15px; text-align: left;">
+            <!-- 聯絡方式區塊 (這裡加了變化的模擬文字) -->
+            <p style="color: #4AF626; margin: 0;">M4ng0D0g@terminal:~$ cat /etc/contact/discord.txt</p>
+            <p style="color: #FFFFFF; margin: 5px 0 0 15px;">👉 myu._.0123</p>
           </div>
         </div>
       </td>
@@ -46,10 +49,10 @@
 
 <!-- 彩虹分隔線區塊 -->
 <p align="center">
-  <img src="/assets/rainbow-line.png" width="100%" height="3px" />
+  <img src="/assets/rainbow-line.gif" width="100%" height="3px" />
 </p>
 
-### 📂 /var/log/activity
+## 🫪 Activity
 <details open>
   <summary><b>System Diagnostics: Click to toggle</b></summary>
   <p align="center">
