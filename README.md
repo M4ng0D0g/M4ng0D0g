@@ -1,14 +1,17 @@
 # <h1><p align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=VT323&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=M4ng0D0g@dev:~$+init+system;Loading+C%2B%2B+Core...;Training+AI+Models...;Optimizing+Minecraft+Mods...;System+Ready." alt="Typing SVG" /></a> </p></h1>
 
 <p align="center">
-  <!-- C++ (淺紅色) -->
-  <img src="https://img.shields.io/badge/C%2B%2B-FFB3B3?style=flat&logo=cplusplus&logoColor=white" />
-  <!-- Java (淺黃色) -->
-  <img src="https://img.shields.io/badge/Java-FFF9B3?style=flat&logo=openjdk&logoColor=444" />
-  <!-- AI Training (淺綠色) -->
-  <img src="https://img.shields.io/badge/AI_Training-B3FFB3?style=flat&logo=openai&logoColor=444" />
-  <!-- Fabric Modding (淺藍色) -->
-  <img src="https://img.shields.io/badge/Fabric_Modding-B3E5FF?style=flat&logo=fabricmc&logoColor=444" />
+  <!-- C++ (深紅色 #C0392B) -->
+  <img src="https://img.shields.io/badge/Main_Language-C%2B%2B-C0392B?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  
+  <!-- Java (暗金色 #B7950B，確保白字清晰) -->
+  <img src="https://img.shields.io/badge/Secondary-Java-B7950B?style=for-the-badge&logo=openjdk&logoColor=white" />
+  
+  <!-- AI Training (深綠色 #27AE60) -->
+  <img src="https://img.shields.io/badge/Field-AI_Training-27AE60?style=for-the-badge&logo=openai&logoColor=white" />
+  
+  <!-- Fabric Modding (深藍色 #2980B9) -->
+  <img src="https://img.shields.io/badge/Minecraft-Fabric_Mod-2980B9?style=for-the-badge&logo=fabricmc&logoColor=white" />
 </p>
 
 <div align="center">
@@ -24,7 +27,6 @@
               <div style="width: 12px; height: 12px; background-color: #ffbd2e; border-radius: 50%;"></div>
               <div style="width: 12px; height: 12px; background-color: #27c93f; border-radius: 50%;"></div>
             </div>
-            <div style="margin-left: 20px; color: #4AF626; font-family: 'VT323', monospace; font-size: 14px;"> M4ng0D0g@terminal:~ </div>
           </div>
           <!-- 終端機內容區 -->
           <div style="padding: 15px; text-align: left;">
@@ -52,9 +54,15 @@
 
 ### 📂 /var/log/activity
 <details open>
-  <summary><b>Click to toggle system analytics...</b></summary>
+  <summary><b>System Diagnostics: Click to toggle</b></summary>
   <p align="center">
+    <!-- GitHub 統計卡片 -->
     <img src="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180px" />
+    <!-- WakaTime 開發時數 (確保 WakaTime Profile 設為 Public) -->
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=M4ng0D0g&theme=tokyonight&layout=compact" height="180px" />
+  </p>
+  <!-- Discord 實時狀態監控 (推薦使用 Lanyard) -->
+  <p align="center">
+    <img src="https://lanyard.wrapped.run/api/M4ng0D0g?theme=dark&bg=0d1117&borderRadius=8px" alt="Discord Status" />
   </p>
 </details>
