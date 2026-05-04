@@ -10,12 +10,11 @@
 <table border="0">
   <tr>
     <td valign="top">
+      <td valign="top">
       <h2> 🖥️ Main Console </h2>
-      <blockquote>
-        <strong>Current Task:</strong> Optimizing MyuAgent training loops <br />
-        <strong>Status:</strong> <img src="https://img.shields.io/badge/System-Stable-green?style=flat-square" />
-      </blockquote>
-      <h3>🐍 Contribution Snake</h3>
+      <div style="background-color: #0d1117; padding: 10px; border-radius: 5px;">
+        <img src="https://readme-typing-svg.demolab.com?font=VT323&size=22&pause=1000&color=FFFFFF&width=435&lines=%3E+Current+Task%3A+Optimizing+MyuAgent+training+loops...;%3E+Status%3A+System+Stable+_;%3E+Memory+Usage%3A+Optimized;%3E+Waiting+for+next+command...+" alt="Terminal Output" />
+      </div>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/output/github-contribution-grid-snake.svg">
