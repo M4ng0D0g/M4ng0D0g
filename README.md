@@ -1,4 +1,4 @@
-# <h1><p align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=M4ng0D0g@dev:~$+init+system;Loading+C%2B%2B+Core...;Training+AI+Models...;Optimizing+Minecraft+Mods...;System+Ready." alt="Typing SVG" /></a> </p></h1>
+# <h1><p align="center"> <a href="[https://git.io/typing-svg](https://git.io/typing-svg)"><img src="[https://readme-typing-svg.demolab.com?font=VT323&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=M4ng0D0g@dev:~$+init+system;Loading+C%2B%2B+Core...;Training+AI+Models...;Optimizing+Minecraft+Mods...;System+Ready](https://readme-typing-svg.demolab.com?font=VT323&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=M4ng0D0g@dev:~$+init+system;Loading+C%2B%2B+Core...;Training+AI+Models...;Optimizing+Minecraft+Mods...;System+Ready)." alt="Typing SVG" /></a> </p></h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Main_Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
