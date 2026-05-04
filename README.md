@@ -23,8 +23,7 @@
   </picture>
 </div>
 
-<div align="center">
-  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td align="left">
       <!-- 終端機外框 (滿版寬度) -->
@@ -54,7 +53,6 @@
     </td>
   </tr>
 </table>
-</div>
 
 <!-- 彩虹分隔線區塊 -->
 <p align="center">
