@@ -52,6 +52,10 @@
   <img src="/assets/rainbow-line.gif" width="100%" height="3px" />
 </p>
 
+<!-- START_GUESTBOOK -->
+> [System] Guestbook initialized. Waiting for connections...
+<!-- END_GUESTBOOK -->
+
 ## 🫪 Activity
 <details open>
   <summary><b>System Diagnostics: Click to toggle</b></summary>
