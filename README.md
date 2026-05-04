@@ -24,26 +24,24 @@
 </div>
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0">
+  <div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="center">
-        <!-- 終端機視窗外框 -->
-        <div style="width: 480px; background-color: #0d1117; border: 1px solid #4AF626; border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-          <!-- 標題列與視窗按鈕 -->
-          <div style="background-color: #161b22; padding: 10px; display: flex; align-items: center; border-bottom: 1px solid #4AF626;">
-            <div style="display: flex; gap: 6px; margin-left: 5px;">
-              <div style="width: 12px; height: 12px; background-color: #ff5f56; border-radius: 50%;"></div>
-              <div style="width: 12px; height: 12px; background-color: #ffbd2e; border-radius: 50%;"></div>
-              <div style="width: 12px; height: 12px; background-color: #27c93f; border-radius: 50%;"></div>
-            </div>
+        <!-- 終端機外框 -->
+        <div style="background-color: #0d1117; border: 1px solid #4AF626; border-radius: 8px; max-width: 500px;">
+          <!-- 標題列 (使用 Emoji 確保按鈕 100% 正常顯示) -->
+          <div style="background-color: #161b22; padding: 10px; border-bottom: 1px solid #4AF626; text-align: left;">
+            🔴 🟡 🟢 &nbsp;&nbsp;&nbsp;&nbsp; <code style="color: #4AF626; background: transparent; font-family: 'VT323', monospace; font-size: 14px;">M4ng0D0g@terminal:~</code>
           </div>
-          <!-- 終端機內容區 -->
+          <!-- 內容區 -->
           <div style="padding: 15px; text-align: left;">
           </div>
         </div>
       </td>
     </tr>
   </table>
+</div>
 </div>
 
 <!-- 彩虹分隔線區塊 -->
