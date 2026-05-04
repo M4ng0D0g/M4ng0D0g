@@ -17,7 +17,6 @@
       <img src="https://img.shields.io/badge/--F8F8F8?style=flat-square&logo=fabricmc&logoColor=black" width="35px" /> <br />
       <img src="https://img.shields.io/badge/--412991?style=flat-square&logo=openai&logoColor=white" width="35px" /> <br />
     </td>
-    
     <!-- 右側主視窗區 -->
     <td valign="top">
       <h2> 🖥️ Main Console </h2>
@@ -25,7 +24,6 @@
         <strong>Current Task:</strong> Optimizing MyuAgent training loops <br />
         <strong>Status:</strong> <img src="https://img.shields.io/badge/System-Stable-green?style=flat-square" />
       </blockquote>
-
       <h3>🐍 Contribution Snake</h3>
       <!-- 注意：若此圖破圖，請確認你的 Action 是否已跑完並產生 output 分支 -->
       <picture>
