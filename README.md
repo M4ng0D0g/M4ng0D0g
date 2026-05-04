@@ -23,43 +23,43 @@
   </picture>
 </div>
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="left">
-      <!-- 終端機外框 (滿版寬度) -->
-      <div style="background-color: #0d1117; border: 1px solid #4AF626; border-radius: 8px; width: 100%;">
-        <!-- 標題列 (加入下方分隔線) -->
-        <div style="background-color: #161b22; padding: 10px 15px; border-bottom: 1px solid #4AF626; border-top-left-radius: 8px; border-top-right-radius: 8px; display: flex; align-items: center;">
-          🔴 🟡 🟢 &nbsp;&nbsp;&nbsp;&nbsp;
-          <code style="color: #4AF626; background: transparent; font-family: 'VT323', monospace; font-size: 15px;">M4ng0D0g@terminal:~</code>
-        </div>
-        <!-- 下半部：純代碼區塊 (聯絡方式與留言板) -->
-        <div style="border-top: 1px solid #4AF626; background-color: #0d1117; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-<pre style="margin: 0; padding: 15px; background: transparent; border: none; color: #e6edf3; font-family: 'Consolas', 'Courier New', monospace; font-size: 14.5px; line-height: 1.6; overflow-x: auto;">
-<span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /etc/contact/ig.txt
-👉 <a href="你的IG網址" style="color: #58a6ff; text-decoration: none;">你的IG帳號</a>
-
-<span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /etc/contact/discord.txt
-👉 myu_.0123
-
-<span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> tail -n 5 /var/log/visitors.log
-<span style="color: #8b949e;"># Type <a href="[https://github.com/M4ng0D0g/M4ng0D0g/issues/new?title=guestbook%20%7C%20YOUR_NAME&body=YOUR_MESSAGE](https://github.com/M4ng0D0g/M4ng0D0g/issues/new?title=guestbook%20%7C%20YOUR_NAME&body=YOUR_MESSAGE)" style="color: #FFD700; text-decoration: underline;">[here]</a> to inject your message into the system.</span>
-&gt; [System] Guestbook initialized. Waiting for connections...
-<!-- START_GUESTBOOK -->
-<!-- END_GUESTBOOK -->
-</pre>
-        </div>
-      </div>
-    </td>
-  </tr>
-</table>
-
 <!-- 彩虹分隔線區塊 -->
 <p align="center">
   <img src="/assets/rainbow-line.gif" width="100%" height="3px" />
 </p>
 
-## 🫪 Activity
+<div align="center">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="left">
+        <!-- 終端機外框 (滿版寬度) -->
+        <div style="background-color: #0d1117; border: 1px solid #4AF626; border-radius: 8px; width: 100%;">
+          <!-- 標題列 -->
+          <div style="background-color: #161b22; padding: 10px 15px; border-bottom: 1px solid #4AF626; border-top-left-radius: 8px; border-top-right-radius: 8px; display: flex; align-items: center;">
+            🔴 🟡 🟢 &nbsp;&nbsp;&nbsp;&nbsp;
+            <code style="color: #4AF626; background: transparent; font-family: 'VT323', monospace; font-size: 15px;">M4ng0D0g@terminal:~</code>
+          </div>
+          <!-- 下半部：純代碼區塊 (聯絡方式與留言板) -->
+          <div style="border-top: 1px solid #4AF626; background-color: #0d1117; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
+<pre style="margin: 0; padding: 15px; background: transparent; border: none; color: #e6edf3; font-family: 'Consolas', 'Courier New', monospace; font-size: 14.5px; line-height: 1.6; overflow-x: auto;">
+<span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /etc/contact/ig.txt
+👉 <a href="你的IG網址" style="color: #58a6ff; text-decoration: none;">你的IG帳號</a>
+<span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /etc/contact/discord.txt
+👉 myu_.0123
+<span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> tail -n 5 /var/log/visitors.log
+<span style="color: #8b949e;"># Type <a href="https://github.com/M4ng0D0g/M4ng0D0g/issues/new?title=guestbook%20%7C%20YOUR_NAME&body=YOUR_MESSAGE" style="color: #FFD700; text-decoration: underline;">[here]</a> to inject your message into the system.</span>
+&gt; [System] Guestbook initialized. Waiting for connections...
+<!-- START_GUESTBOOK -->
+<!-- END_GUESTBOOK -->
+</pre>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## 📝 Activity
 <details open>
   <summary><b>System Diagnostics: Click to toggle</b></summary>
   <p align="center">
@@ -70,6 +70,6 @@
   </p>
   <!-- Discord 實時狀態監控 (推薦使用 Lanyard) -->
   <p align="center">
-    <img src="https://lanyard.wrapped.run/api/M4ng0D0g?theme=dark&bg=0d1117&borderRadius=8px" alt="Discord Status" />
+    <img src="https://lanyard.wrapped.run/api/myu._.0123?theme=dark&bg=0d1117&borderRadius=8px" alt="Discord Status" />
   </p>
 </details>
