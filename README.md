@@ -9,15 +9,6 @@
 
 <table border="0">
   <tr>
-    <!-- 左側極窄導航欄 -->
-    <td width="60px" valign="top" align="center">
-      <br />
-      <img src="https://img.shields.io/badge/--00599C?style=flat-square&logo=cplusplus&logoColor=white" width="35px" /> <br />
-      <img src="https://img.shields.io/badge/--ED8B00?style=flat-square&logo=openjdk&logoColor=white" width="35px" /> <br />
-      <img src="https://img.shields.io/badge/--F8F8F8?style=flat-square&logo=fabricmc&logoColor=black" width="35px" /> <br />
-      <img src="https://img.shields.io/badge/--412991?style=flat-square&logo=openai&logoColor=white" width="35px" /> <br />
-    </td>
-    <!-- 右側主視窗區 -->
     <td valign="top">
       <h2> 🖥️ Main Console </h2>
       <blockquote>
