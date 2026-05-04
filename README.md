@@ -1,10 +1,14 @@
-# <h1><p align="center"> chiayu@dev:~ </p></h1>
+# <h1><p align="center"> M4ng0D0g@dev:~ </p></h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C++20-blue?logo=cplusplus" />
-  <img src="https://img.shields.io/badge/Platform-Fabric-orange?logo=minecraft" />
-  <img src="https://img.shields.io/badge/Field-AI_Training-red?logo=nvidia" />
-  <img src="https://img.shields.io/badge/Learning-Japanese_N5-green?logo=duolingo" />
+  <!-- C++ -->
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <!-- Java -->
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <!-- Minecraft Fabric -->
+  <img src="https://img.shields.io/badge/Minecraft_Fabric-F8F8F8?style=for-the-badge&logo=fabricmc&logoColor=black" />
+  <!-- AI Learning -->
+  <img src="https://img.shields.io/badge/AI_Learning-FF6F00?style=for-the-badge&logo=google-ai&logoColor=white" />
 </p>
 
 ---
