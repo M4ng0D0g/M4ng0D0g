@@ -40,6 +40,47 @@
 
 ![](https://raw.githubusercontent.com/M4ng0D0g/M4ng0D0g/main/profile-3d-contrib/profile-night-rainbow.svg)
 
+
+<table border="0">
+  <tr>
+    <!-- 左側極窄導航欄 (Sidebar) -->
+    <td width="60px" valign="top" align="center">
+      <br />
+      <img src="https://img.shields.io/badge/--00599C?style=for-the-badge&logo=cplusplus&logoColor=white" width="40px" /> <br />
+      <img src="https://img.shields.io/badge/--ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" width="40px" /> <br />
+      <img src="https://img.shields.io/badge/--F8F8F8?style=for-the-badge&logo=fabricmc&logoColor=black" width="40px" /> <br />
+      <img src="https://img.shields.io/badge/--412991?style=for-the-badge&logo=openai&logoColor=white" width="40px" /> <br />
+    </td>
+    
+    <!-- 右側主視窗區 (Main Window) -->
+    <td valign="top">
+      <h2> 🖥️ Main Console </h2>
+      <blockquote>
+        <strong>Current Task:</strong> Optimizing MyuAgent training loops <br />
+        <strong>Status:</strong> <img src="https://img.shields.io/badge/System-Stable-green?style=flat-square" />
+      </blockquote>
+      
+      <!-- 這裡放入之前的動態打字標題與架構圖 -->
+      
+    </td>
+  </tr>
+</table>
+
+
+### 📂 /var/log/activity
+<details open>
+  <summary><b>Click to toggle system analytics...</b></summary>
+  <p align="center">
+    <!-- 放入你的 GitHub Stats 與 WakaTime 卡片 -->
+  </p>
+</details>
+
+### 🏗️ /usr/local/bin/architecture
+<details>
+  <summary><b>Expand Project ClassDiagram...</b></summary>
+  <!-- 放入之前的 Mermaid 代碼 -->
+</details>
+
 ---
 
 <p align="center">
