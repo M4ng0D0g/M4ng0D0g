@@ -23,17 +23,13 @@
   </picture>
 </div>
 
-<!-- 彩虹分隔線區塊 -->
-<p align="center">
-  <img src="/assets/rainbow-line.gif" width="100%" height="3px" />
-</p>
 
-<div align="center">
-  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+<div align="center" style="width: 100%;">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" style="min-width: 100%;">
     <tr>
-      <td align="left">
-        <!-- 終端機外框 (滿版寬度) -->
-        <div style="background-color: #0d1117; border: 1px solid #4AF626; border-radius: 8px; width: 100%;">
+      <td align="left" width="100%">
+        <!-- 終端機外框 (強制滿版寬度) -->
+        <div style="background-color: #0d1117; border: 1px solid #4AF626; border-radius: 8px; width: 100%; min-width: 100%; box-sizing: border-box;">
           <!-- 標題列 -->
           <div style="background-color: #161b22; padding: 10px 15px; border-bottom: 1px solid #4AF626; border-top-left-radius: 8px; border-top-right-radius: 8px; display: flex; align-items: center;">
             🔴 🟡 🟢 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -41,7 +37,7 @@
           </div>
           <!-- 下半部：純代碼區塊 (聯絡方式與留言板) -->
           <div style="border-top: 1px solid #4AF626; background-color: #0d1117; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-<pre style="margin: 0; padding: 15px; background: transparent; border: none; color: #e6edf3; font-family: 'Consolas', 'Courier New', monospace; font-size: 14.5px; line-height: 1.6; overflow-x: auto;">
+<pre style="margin: 0; padding: 15px; background: transparent; border: none; color: #e6edf3; font-family: 'Consolas', 'Courier New', monospace; font-size: 14.5px; line-height: 1.6; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;">
 <span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /etc/contact/ig.txt
 👉 <a href="你的IG網址" style="color: #58a6ff; text-decoration: none;">你的IG帳號</a>
 <span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /etc/contact/discord.txt
@@ -51,6 +47,12 @@
 &gt; [System] Guestbook initialized. Waiting for connections...
 <!-- START_GUESTBOOK -->
 <!-- END_GUESTBOOK -->
+  
+  <span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /var/log/training_checkpoints.log
+<span style="color: #8b949e;"># Synchronizing training checkpoints from Hugging Face...</span>
+<!-- START_HF_STATS -->
+&gt; [System] Fetching AI model metrics...
+<!-- END_HF_STATS -->
 </pre>
           </div>
         </div>
@@ -58,6 +60,11 @@
     </tr>
   </table>
 </div>
+
+<!-- 彩虹分隔線區塊 -->
+<p align="center">
+  <img src="/assets/rainbow-line.gif" width="100%" height="3px" />
+</p>
 
 ## 📝 Activity
 <details open>
