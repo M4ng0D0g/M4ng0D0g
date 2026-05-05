@@ -73,7 +73,7 @@
   <summary><b>System Diagnostics: Click to toggle</b></summary>
   <p align="center">
     <!-- GitHub 統計卡片 -->
-    [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=M4ng0D0g&theme=dark&background=000000)](https://git.io/streak-stats)
+    <a href="https://git.io/streak-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=M4ng0D0g&theme=dark&date_format=M%20j%5B%2C%20Y%5D&background=45%2C32789FCF%2C8A3D38D2" alt="GitHub Streak" /></a>
     <!-- WakaTime 開發時數 -->
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=M4ng0D0g&theme=tokyonight&layout=compact" height="180px" />
   </p>
