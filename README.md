@@ -73,17 +73,7 @@
   <summary><b>System Diagnostics: Click to toggle</b></summary>
   <p align="center">
     <!-- GitHub 統計卡片 -->
-    <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true" />
-</picture>
+    [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=M4ng0D0g&theme=dark&background=000000)](https://git.io/streak-stats)
     <!-- WakaTime 開發時數 -->
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=M4ng0D0g&theme=tokyonight&layout=compact" height="180px" />
   </p>
