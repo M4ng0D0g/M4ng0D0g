@@ -73,7 +73,17 @@
   <summary><b>System Diagnostics: Click to toggle</b></summary>
   <p align="center">
     <!-- GitHub 統計卡片 -->
-    <img src="https://github-readme-stats.vercel.app/api?username=MangoDog_&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180px" />
+    <picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=M4ng0D0g&show_icons=true" />
+</picture>
     <!-- WakaTime 開發時數 -->
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=M4ng0D0g&theme=tokyonight&layout=compact" height="180px" />
   </p>
