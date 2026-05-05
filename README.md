@@ -80,6 +80,7 @@
   
   <!-- Discord 實時狀態監控 -->
   <p align="center">
-    <img src="https://lanyard.wrapped.run/api/617695091284508682?theme=dark&bg=0d1117&borderRadius=8px" alt="Discord Status" />
+    <a href="https://discord.com/users/617695091284508682"><img src="https://lanyard.cnrad.dev/api/617695091284508682?showDisplayName=true" /></a>
+    <!-- <img src="https://lanyard.wrapped.run/api/617695091284508682?theme=dark&bg=0d1117&borderRadius=8px" alt="Discord Status" /> -->
   </p>
 </details>
