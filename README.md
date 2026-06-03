@@ -53,7 +53,7 @@
 <span style="color: #4AF626;">M4ng0D0g@terminal:~$</span> cat /var/log/training_checkpoints.log
 <span style="color: #8b949e;"># Synchronizing training checkpoints from Hugging Face...</span>
 <!-- START_HF_STATS -->
-> [Warning] No training checkpoints found for this user.
+> [Error] Connection to Hugging Face API failed.
 <!-- END_HF_STATS -->
 </pre>
           </div>
